@@ -17,9 +17,8 @@ function App() {
         <BrowserRouter>
           <Header/>
             <Routes>
-                <Route exact path="/" element={<StudentList />}>
-                <Route exact path="/about" element={<About />}>
-              </Route>
+                <Route exact path="/" element={<StudentList />} />
+                <Route exact path="/about" element={<About />} />
             </Routes>
           <Footer/>
         </BrowserRouter>

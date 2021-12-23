@@ -14,7 +14,7 @@ function Header(){
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="./" class="navbar-brand">Student Menu</a>
+                        <a to="/" class="navbar-brand">Student Listing</a>
                     </div>
                     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
                         <ul class="nav navbar-nav navbar-right">

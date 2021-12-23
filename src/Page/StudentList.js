@@ -1,51 +1,58 @@
 import React from 'react';
+import Listing from './Listing';
 
 function StudentList(){
 
     return(
 
         <>  
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+            <div class="add_main_div">
+             
+                <div class="container add_home_page">
+                    <div class="row">
+                        
                         <h1>
-                            Student Detail
+                            Student Detail Listing
                         </h1>
+                        <Listing
+                        imgsrc="https://picsum.photos/200/100"
+                        title="One of three columns"
+                        link="https://reactjs.org/docs/components-and-props.html"
+                        content="It is a long established fact that a reader will be distracted by
+                        the readable content of a page when looking at its layout. The point
+                        of using Lorem Ipsum is"
+                        />
 
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <Listing
+                        imgsrc="https://picsum.photos/100/100"
+                        title="Two of three columns"
+                        link="https://reactjs.org/docs/components-and-props.html"
+                        content="It is a long established fact that a reader will be distracted by
+                        the readable content of a page when looking at its layout. The point
+                        of using Lorem Ipsum is"
+                        />
+
+                        <Listing
+                        imgsrc="https://picsum.photos/300/100"
+                        title="Three of three columns"
+                        link="https://reactjs.org/docs/components-and-props.html"
+                        content="It is a long established fact that a reader will be distracted by
+                        the readable content of a page when looking at its layout. The point
+                        of using Lorem Ipsum is"
+                        />
+
+                        <Listing
+                        imgsrc="https://picsum.photos/400/100"
+                        title="Four of three columns"
+                        link="https://reactjs.org/docs/components-and-props.html"
+                        content="It is a long established fact that a reader will be distracted by
+                        the readable content of a page when looking at its layout. The point
+                        of using Lorem Ipsum is"
+                        />
+
                     </div>
                 </div>
             </div>
-
         </>
 
     )
